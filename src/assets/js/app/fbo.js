@@ -34,7 +34,7 @@ export default class FBO
             minFilter: THREE.NearestFilter,
             magFilter: THREE.NearestFilter,
             format: format,
-            type: THREE.FloatType,
+            type: THREE.HalfFloatType,
             depth: false,
             stencil: false
         };
